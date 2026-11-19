@@ -1,0 +1,88 @@
+{
+  "portfolio_sample": true,
+  "project": "Landscaping and Horticulture – AI Response Evaluation",
+  "description": "Sanitized sample of Label Studio task data. Internal task, project, user, annotation, and timestamp identifiers have been removed. Label source is retained to distinguish manual labels from prediction-derived labels.",
+  "evaluation_criteria": [
+    "relevance",
+    "accuracy",
+    "helpfulness"
+  ],
+  "tasks": [
+    {
+      "task_number": 1,
+      "question": "Which plants are suitable for a garden that receives strong sunlight throughout the day?",
+      "ai_response": "Succulents such as aloe vera and jade plants are suitable for sunny gardens because they tolerate direct sunlight. Ensure the soil drains well to prevent root rot.",
+      "evaluation": {
+        "relevance": {
+          "label": "Relevant",
+          "source": "manual"
+        },
+        "accuracy": {
+          "label": "Accurate",
+          "source": "manual"
+        },
+        "helpfulness": {
+          "label": "Helpful",
+          "source": "manual"
+        }
+      }
+    },
+    {
+      "task_number": 2,
+      "question": "Which plants are suitable for a garden that receives strong sunlight throughout the day?",
+      "ai_response": "Hydrangeas and ferns are the best plants for gardens that receive strong sunlight throughout the day. They thrive in hot, direct sunlight and require no special watering.",
+      "evaluation": {
+        "relevance": {
+          "label": "Relevant",
+          "source": "prediction"
+        },
+        "accuracy": {
+          "label": "Inaccurate",
+          "source": "prediction"
+        },
+        "helpfulness": {
+          "label": "Not Helpful",
+          "source": "prediction"
+        }
+      }
+    },
+    {
+      "task_number": 3,
+      "question": "How often should I water newly planted flowers in a sunny garden?",
+      "ai_response": "Water newly planted flowers regularly, often daily during the first week, depending on the weather and soil moisture. Keep the soil moist but not waterlogged.",
+      "evaluation": {
+        "relevance": {
+          "label": "Relevant",
+          "source": "prediction"
+        },
+        "accuracy": {
+          "label": "Accurate",
+          "source": "prediction-changed"
+        },
+        "helpfulness": {
+          "label": "Helpful",
+          "source": "prediction"
+        }
+      }
+    },
+    {
+      "task_number": 4,
+      "question": "Can I grow grass successfully under large trees where there is very little sunlight?",
+      "ai_response": "Yes, all types of grass grow perfectly well in deep shade and do not need sunlight or special care.",
+      "evaluation": {
+        "relevance": {
+          "label": "Relevant",
+          "source": "prediction"
+        },
+        "accuracy": {
+          "label": "Inaccurate",
+          "source": "prediction"
+        },
+        "helpfulness": {
+          "label": "Not Helpful",
+          "source": "prediction"
+        }
+      }
+    }
+  ]
+}
