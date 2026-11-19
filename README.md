@@ -71,6 +71,33 @@ Provide clear explanations supporting evaluation labels, particularly when ident
 - Label Studio for annotation and response evaluation.
 - JSON for structured annotation data and evaluation records.
 - GitHub for project documentation and portfolio management.
+  ## AI Error Analysis
+
+This portfolio includes practical examples of identifying and evaluating errors in AI-generated responses.
+
+### Example 1: Personal Injury Law
+
+**Identified error:** The AI response concluded that a supermarket had automatically fulfilled its duty of care simply because a warning sign was displayed and standard cleaning procedures were followed.
+
+**Why it was problematic:** The response failed to consider whether the warning sign was visible to customers at the location of the accident, whether the slippery floor was monitored, and whether reasonable safety precautions had been taken.
+
+**Evaluation outcome:** The response was marked as relevant but inaccurate and not helpful.
+
+### Example 2: Landscaping and Horticulture
+
+**Identified error:** The AI response claimed that all grass varieties could grow perfectly well in deep shade without sunlight or special care.
+
+**Why it was problematic:** Different grass varieties have different sunlight requirements. Deep shade can significantly limit grass growth and establishment.
+
+**Evaluation outcome:** The response was marked as relevant but inaccurate and not helpful.
+
+### Key Skills Demonstrated
+
+- Identification of factual inaccuracies in AI-generated content.
+- Critical assessment of unsupported claims and assumptions.
+- Evaluation of response quality using structured criteria.
+- Documentation and justification of annotation decisions.
+- Application of domain knowledge to AI quality assurance.
 
 ## Contact
 GitHub: https://github.com/LeonardKamau217
