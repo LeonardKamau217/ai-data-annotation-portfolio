@@ -1,0 +1,81 @@
+{
+  "portfolio_sample": true,
+  "project": "Personal Injury Law – AI Response Evaluation",
+  "description": "Sanitized sample of Label Studio task data. Internal task, project, user, annotation, and timestamp identifiers have been removed. Label source is retained to distinguish manual labels from prediction-derived labels.",
+  "evaluation_criteria": [
+    "relevance",
+    "accuracy",
+    "helpfulness"
+  ],
+  "tasks": [
+    {
+      "task_number": 1,
+      "question": "A customer entered a supermarket aisle after employees had placed a visible wet-floor warning sign and a barrier at the entrance. The customer moved the barrier, walked onto the wet floor and slipped. What factors should be considered when assessing responsibility for the customer's injuries?",
+      "ai_response": "The customer may have contributed to the accident by moving the barrier and entering a clearly restricted wet area. However, the supermarket's responsibility cannot be determined from these facts alone. Relevant considerations include whether the warning and barrier were visible and adequate, whether the area was reasonably secured, whether staff followed appropriate cleaning procedures, and whether any other hazard contributed to the fall. The applicable law and available evidence will determine whether either party was negligent and whether responsibility is shared.",
+      "evaluation": {
+        "relevance": {
+          "label": "Relevant",
+          "source": "manual"
+        },
+        "accuracy": {
+          "label": "Accurate",
+          "source": "manual"
+        },
+        "helpfulness": {
+          "label": "Helpful",
+          "source": "manual"
+        }
+      },
+      "justification": {
+        "text": "The AI correctly acknowledges that the customer may have contributed to the accident by moving the barrier and entering a restricted wet area. It also recognizes that the supermarket's responsibility depends on whether the warning signs and barriers were visible and adequate and whether the area was reasonably secured. Furthermore, the response identifies the need to examine cleaning procedures and other possible hazards before determining liability. It appropriately recognizes that the applicable law and available evidence must guide the final assessment rather than automatically assigning responsibility to either party.",
+        "source": "manual"
+      }
+    },
+    {
+      "task_number": 2,
+      "question": "A supermarket cleaned an aisle and displayed a wet-floor warning sign. A shopper later slipped in the area and suffered an injury. Does displaying the warning sign automatically mean the supermarket has fulfilled its duty to keep customers safe?",
+      "ai_response": "No. A warning sign is an important precaution, but it does not automatically establish that the supermarket took all reasonable steps to address the hazard. The assessment may also consider whether the sign was visible and appropriately placed, whether access to the wet area should have been restricted, how long the floor remained slippery, whether staff monitored the area, and whether the cleaning method created an avoidable risk. The conclusion depends on the circumstances and applicable law.",
+      "evaluation": {
+        "relevance": {
+          "label": "Relevant",
+          "source": "manual"
+        },
+        "accuracy": {
+          "label": "Accurate",
+          "source": "manual"
+        },
+        "helpfulness": {
+          "label": "Helpful",
+          "source": "manual"
+        }
+      },
+      "justification": {
+        "text": "AI correctly states that while a warning sign is necessary, its not sufficient to prevent a hazard. It adds that the sign must be visible and well placed. In addition to the sign, monitoring the area and restricting access to the wet floor is a vital precaution. By knowing how long the floor remained slippery, the supermarket can take the right measures to prevent hazards. Also, AI notes that these circumstances need to be reviewed while considering the applicable law.",
+        "source": "manual"
+      }
+    },
+    {
+      "task_number": 3,
+      "question": "A supermarket employee mopped an aisle and placed a wet-floor warning sign at one entrance. About 20 minutes later, a shopper slipped near the opposite end of the aisle. The supermarket says the employee followed the usual cleaning procedure. Does this automatically prove that the supermarket took reasonable care and that the shopper alone is responsible?",
+      "ai_response": "Yes. The employee followed the supermarket's usual cleaning procedure and placed a warning sign, so the supermarket fulfilled its duty of care. Because the shopper entered the aisle and slipped, the shopper is solely responsible for the accident. There is no need to examine where the sign was placed, whether it was visible from the location of the fall, whether the floor was still slippery, or whether the aisle was monitored.",
+      "evaluation": {
+        "accuracy": {
+          "label": "Inaccurate",
+          "source": "prediction"
+        },
+        "helpfulness": {
+          "label": "Not Helpful",
+          "source": "prediction"
+        },
+        "relevance": {
+          "label": "Relevant",
+          "source": "manual"
+        }
+      },
+      "justification": {
+        "text": "The AI incorrectly assumes that placing a warning sign automatically means the supermarket fulfilled its duty of care to keep customers safe. It also dismisses the importance of examining where the sign was positioned and whether it was visible to the shopper at the location of the fall. Since the sign was placed at only one entrance, its visibility from the opposite end of the aisle needs to be established. Furthermore, the AI concludes that the shopper was solely responsible without considering whether the supermarket adequately monitored the aisle or took reasonable precautions while the floor remained slippery. The available evidence and applicable law should be considered before determining responsibility.",
+        "source": "manual"
+      }
+    }
+  ]
+}
