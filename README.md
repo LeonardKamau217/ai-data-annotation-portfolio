@@ -99,5 +99,30 @@ This portfolio includes practical examples of identifying and evaluating errors 
 - Documentation and justification of annotation decisions.
 - Application of domain knowledge to AI quality assurance.
 
+  ## Quality Assurance Process
+
+I apply a structured quality assurance approach when reviewing AI-generated responses.
+
+### 1. Review the Original Prompt
+Understand the user's question and identify the information required in the response.
+
+### 2. Examine the AI Response
+Review the response for relevance, factual accuracy, completeness and usefulness.
+
+### 3. Identify Potential Errors
+Look for misleading statements, unsupported assumptions, inaccurate recommendations and gaps in reasoning.
+
+### 4. Apply Evaluation Labels
+Use the appropriate annotation categories to classify response quality.
+
+### 5. Provide Evaluation Justifications
+Document reasons for evaluation decisions, especially when identifying inaccurate or unhelpful responses.
+
+### 6. Review Annotation Consistency
+Check that evaluation labels and supporting explanations are consistent with the assessment criteria.
+
+### Objective
+To support reliable AI response evaluation through structured annotation, critical analysis and consistent quality assessment.
+
 ## Contact
 GitHub: https://github.com/LeonardKamau217
