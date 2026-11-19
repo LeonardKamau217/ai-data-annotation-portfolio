@@ -71,6 +71,6 @@ Provide clear explanations supporting evaluation labels, particularly when ident
 - Label Studio for annotation and response evaluation.
 - JSON for structured annotation data and evaluation records.
 - GitHub for project documentation and portfolio management.
-- 
+
 ## Contact
 GitHub: https://github.com/LeonardKamau217
