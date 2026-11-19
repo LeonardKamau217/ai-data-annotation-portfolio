@@ -49,11 +49,28 @@ Evaluated AI-generated gardening and landscaping recommendations.
 - Identified misleading advice about plant suitability and growing conditions.
 - Assessed recommendations involving watering and shaded environments.
 
-## Tools
+## Evaluation Methodology
+I evaluate AI-generated responses using structured quality assessment criteria to determine whether outputs are relevant, factually accurate, and helpful.
 
-- Label Studio
-- GitHub
+### 1. Relevance
+Assess whether the AI response directly addresses the user's question and stays focused on the requested subject.
 
+### 2. Factual Accuracy
+Check whether the information is factually correct, logically sound, and consistent with established knowledge. Identify misleading claims, unsupported conclusions, and factual errors.
+
+### 3. Helpfulness
+Determine whether the response provides clear, useful, practical information that helps the user understand or address the question.
+
+### 4. Error Identification
+Identify weaknesses such as inaccurate recommendations, unsupported assumptions, incomplete reasoning, and potentially misleading advice.
+
+### 5. Annotation Justification
+Provide clear explanations supporting evaluation labels, particularly when identifying inaccurate or unhelpful AI responses.
+
+### Tools Used
+- Label Studio for annotation and response evaluation.
+- JSON for structured annotation data and evaluation records.
+- GitHub for project documentation and portfolio management.
+- 
 ## Contact
-
 GitHub: https://github.com/LeonardKamau217
